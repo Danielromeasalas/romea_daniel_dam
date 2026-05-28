@@ -22,7 +22,6 @@ public abstract class MotorSQL {
         this.ps = ps;
     }
 
-
     public abstract void connect();
 
     public void prepare(String SQL){
